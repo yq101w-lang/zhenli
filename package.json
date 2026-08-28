@@ -1,0 +1,15 @@
+{
+  "name": "life-workbench-vanilla",
+  "private": true,
+  "version": "1.0.0",
+  "description": "考研 / ADHD 友好型 local-first 个人工作台",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/js/domain.js && node --check public/js/db.js && node --check public/js/store.js && node --check public/js/app.js && node --check public/sw.js",
+    "test": "node --test test/domain.test.js test/server.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

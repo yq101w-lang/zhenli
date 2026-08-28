@@ -1,0 +1,15 @@
+{
+  "name": "缓冲区 · 生活工作台",
+  "short_name": "缓冲区",
+  "description": "系统承担记忆，我承担生活。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f0e9",
+  "theme_color": "#4f6b57",
+  "icons": [
+    { "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/pwa-512x512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/maskable-icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
